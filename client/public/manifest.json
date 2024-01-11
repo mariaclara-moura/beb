@@ -1,6 +1,6 @@
 {
-  "name": "Next.js Boilerplate",
-  "short_name": "Next.js Boilerplate",
+  "name": "B&B Material Hidráulico",
+  "short_name": "B&B Material Hidráulico",
   "icons": [
     {
       "src": "/img/icon-192.png",
@@ -14,7 +14,7 @@
     }
   ],
   "background_color": "#FFFFFF",
-  "description": "Next.js Boilerplate",
+  "description": "B&B Material Hidráulico",
   "display": "fullscreen",
   "start_url": "/",
   "theme_color": "#06092B",

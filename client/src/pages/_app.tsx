@@ -11,16 +11,20 @@ function App({ Component, pageProps }: AppProps) {
     <StyleSheetManager shouldForwardProp={isPropValid}>
       <ThemeProvider theme={theme}>
         <Head>
-          <title>Next.js Boilerplate</title>
+          <title>B&B Material Hidráulico</title>
           <link
             rel="shortcut icon"
-            href="/img/icon-2.png"
+            href="/img/icon-512.png"
             type="image/x-icon"
           />
           <link rel="apple-touch-icon" href="/img/icon-512.png" />
           <link rel="manifest" href="/manifest.json" />
+          <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+          </style>
           <meta name="theme-color" content="#06092B" />
-          <meta name="description" content="A simple boilerplate for next.js" />
+          <meta name="description" content="B&B Material Hidráulico" />
         </Head>
         <GlobalStyles />
         <Component {...pageProps} />
