@@ -4,7 +4,6 @@ background-color:white;
 width:100%;
 height:440px;
 padding-left:120px;
-padding-right:120px;
 padding-top:40px;
 border-radius: 16px;`;
 
