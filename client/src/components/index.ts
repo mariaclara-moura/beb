@@ -1,3 +1,3 @@
 import  NavBar  from './AppBar';
-
-export { NavBar };
+import Products from './Products'
+export { NavBar, Products };

@@ -21,7 +21,7 @@ function App({ Component, pageProps }: AppProps) {
           <link rel="manifest" href="/manifest.json" />
           <style>
             @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
           </style>
           <meta name="theme-color" content="#06092B" />
           <meta name="description" content="B&B Material Hidráulico" />
