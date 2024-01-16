@@ -16,7 +16,7 @@ export const Navbar = () => {
   };
 
   const listItem = ['Início', 'Quem Somos', 'Serviços', 'Produtos', 'Entrar em contato'];
-  const itemLinks = ['section1', 'section2', 'section3', 'section4', 'section5'];
+  const itemLinks = ['section1', 'section2', 'Services', 'Products', 'Contact'];
 
   return (
     <ContainerNav>
