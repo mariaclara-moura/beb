@@ -30,7 +30,7 @@ export const Navbar = () => {
       </ToggleButton>
       <List toggle={toggle}>
         {listItem.map((item, index) => (
-          <li key={index} style={item === 'Entrar em contato' ? { border: '2px solid #FFF', borderRadius: '8px', display: 'flex', padding: '12px', justifyContent: 'center', alignItems: 'center'} : {}}>
+          <li key={index} style={item === 'Entrar em contato' ? { border: '2px solid #FFF', borderRadius: '8px', display: 'flex', padding: '12px', justifyContent: 'center', alignItems: 'center', textDecoration:"none"        } : {}}>
             <ScrollLink
               to={itemLinks[index]}
               smooth={true}
