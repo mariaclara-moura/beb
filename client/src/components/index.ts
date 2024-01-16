@@ -1,3 +1,3 @@
 import  NavBar  from './AppBar';
-import Products from './Products'
-export { NavBar, Products };
+import Services from './Services'
+export { NavBar, Services };
