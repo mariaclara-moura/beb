@@ -11,8 +11,8 @@ export default async function handler(req:any, res: any) {
 
   const { name, email, phone, message, subject } = req.body;
 
-  const emailUser = "nodemailer@citi.org.br";
-  const emailPass = "ckwl qdqe depd tvar";
+  const emailUser = "materialhidraulicobb@gmail.com";
+  const emailPass = "lrab viry rcqu wpha";
 
   if (!emailUser || !emailPass) {
     return res.status(500).json({ error: 'Email credentials not provided' });

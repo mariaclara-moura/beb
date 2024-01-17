@@ -55,6 +55,7 @@ const handleSubmit = async (e: any) => {
     try {
         const response = await axios.post('/api/sendEmail', formData);
         console.log('Email sent:', response.data.message);
+        alert("Email enviado com sucesso!");
         setFormData({
             name: '',
             email: '',
