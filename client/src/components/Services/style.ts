@@ -1,22 +1,13 @@
 import styled from 'styled-components';
-<<<<<<< HEAD
-export const Container = styled.div`
-background-color:white;
-width:100%;
-height:480px;
-padding-left:120px;
-padding-top:40px;
-border-radius: 16px;`;
-=======
->>>>>>> 115c817a56893f502038d82203861be7d11ff8aa
 
 export const Container = styled.div`
-background-color:#0066B3;
+background-color:white;
 width:100%;
 height:450px;
 padding-left:8%;
 padding-right:8%;
 padding-top:3%;
+border-radius: 16px;
 
 @media (max-width: 768px) {
     display:block;
@@ -25,7 +16,7 @@ padding-top:3%;
     padding-top:6%;
     height:700px;}`;
 
-export const Title = styled.h1`color: #FFF;
+export const Title = styled.h1`color: #333;
 font-family: Open Sans;
 font-size: 30px;
 font-style: normal;
@@ -34,7 +25,7 @@ line-height: 20px; /* 66.667% */
 text-transform: uppercase;
 margin-top: 1%;`;
 
-export const Destaque = styled.span`color: #FFF;
+export const Destaque = styled.span`color: #333;
 font-family: Open Sans;
 font-size: 30px;
 font-style: normal;
@@ -46,7 +37,7 @@ export const Linha = styled.div`
 width: 100%;
 height: 2px;
 flex-shrink: 0;
-background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+background: linear-gradient(90deg, #333 0%, rgba(255, 255, 255, 0.00) 100%);
 margin-top:24px;
 margin-bottom:3%;
 
@@ -73,7 +64,7 @@ margin-bottom: 2%;
 }`;
 
 export const Title2 = styled.h2`
-color: #FFF;
+color: #333;
 font-family: Open Sans;
 font-size: 18px;
 font-style: normal;
@@ -82,7 +73,7 @@ line-height: 19.8px; /* 110% */
 margin-top: 3%;`;
 
 export const Text = styled.p`
-color: #FFF;
+color: #333;
 text-align: justify;
 font-family: Open Sans;
 font-size: 18px;

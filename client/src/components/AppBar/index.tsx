@@ -16,7 +16,7 @@ export const Navbar = () => {
   };
 
   const listItem = ['Início', 'Quem Somos', 'Serviços', 'Produtos', 'Entrar em contato'];
-  const itemLinks = ['section1', 'section2', 'section3', 'section4', 'section5'];
+  const itemLinks = ['section1', 'section2', 'Services', 'Products', 'Contact'];
 
   return (
     <ContainerNav>
@@ -30,7 +30,7 @@ export const Navbar = () => {
       </ToggleButton>
       <List toggle={toggle}>
         {listItem.map((item, index) => (
-          <li key={index} style={item === 'Entrar em contato' ? { border: '2px solid #FFF', borderRadius: '8px', display: 'flex', padding: '12px', justifyContent: 'center', alignItems: 'center'} : {}}>
+          <li key={index} style={item === 'Entrar em contato' ? { border: '2px solid #FFF', borderRadius: '8px', display: 'flex', padding: '12px', justifyContent: 'center', alignItems: 'center', textDecoration:"none"        } : {}}>
             <ScrollLink
               to={itemLinks[index]}
               smooth={true}

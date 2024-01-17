@@ -44,14 +44,16 @@ export const List = styled.ul<Props>`
   }
 
   @media screen and (max-width: 1024px) {
-    background-color: #FAFAFA;
-    width: 100%;
+    background-color: white;
+    width: 90%;
     display: ${({ toggle }) => (toggle === true ? 'flex' : 'none')};
     flex-direction: column;
     padding: 1rem;
     position: absolute;
     top:20vw;
+    right: 0;
     z-index: 15;
+    border-radius:5%;
 
     li {
       margin-bottom: 0.5rem;
