@@ -20,7 +20,7 @@ color:#06F;
     /* padding-left:2%;
     padding-right:2%;
     padding-top:6%; */
-    height:1880px;}`;
+    height:1870px;}`;
 
 export const Title = styled.h1`
 color: #FFF;
