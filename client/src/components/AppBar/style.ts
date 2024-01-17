@@ -49,7 +49,7 @@ export const List = styled.ul<Props>`
     display: ${({ toggle }) => (toggle === true ? 'flex' : 'none')};
     flex-direction: column;
     padding: 1rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
     position: absolute;
     top:120px;
     right: 0;

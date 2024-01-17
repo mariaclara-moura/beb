@@ -16,13 +16,14 @@ export default function Inicio() {
   return (
     <Container id="Inicio">
       <Foto></Foto>
+      <div>
       <Title>
         Nossa <Destaque>História</Destaque>
       </Title>
       <Linha></Linha>
       <div style={{padding:"0 8.5%"}}>
         <Text>
-          A B & B Material Hidráulico, foi fundada em 22 de setembro de 2009,
+          A B&B Material Hidráulico foi fundada em 22 de setembro de 2009,
           com o objetivo de fazer parcerias com as construtoras da região,
           viabilizando suas obras de infraestrutura e saneamento, fornecendo
           material de qualidade, com preço e condições comerciais competitivos.
@@ -35,7 +36,7 @@ export default function Inicio() {
           atrelado aos valores e princípios que cercaram esta empresa desde o
           seu fundamento, desejamos continuar expandindo para melhor atender
           nossos clientes.
-        </Text>
+        </Text></div>
       </div>
       <Descrição>
         <Card>
