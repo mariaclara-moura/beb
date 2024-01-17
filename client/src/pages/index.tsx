@@ -1,12 +1,13 @@
 import React from "react";
 import { HomeContainer } from "./style";
 import { Icon } from "../assets";
-import { NavBar,Products } from "components";
+import { NavBar,Products, Inicio } from "components";
 
 export default function Home() {
   return (
     <HomeContainer>
       <NavBar />
+      <Inicio />
       <Products />
       <h1>B&B One-page</h1>
       <p>
