@@ -1,7 +1,16 @@
 import React from "react";
-import { HomeContainer } from "./style";
-import { Icon } from "../assets";
 import { NavBar,Services, Footer, Products, Contact} from "components";
+import styled from "styled-components";
+
+ const HomeContainer = styled.div`
+  background-color:#0066B3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+`;
+
 
 export default function Home() {
   return (
