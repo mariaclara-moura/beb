@@ -6,11 +6,13 @@ import Insta from "./instagram.svg";
 import Zap from "./zap.svg";
 import Map from "./map.svg";
 import Email from "./mail.svg";
-
+import Message from "./message.svg";
+import Phone from "./call.svg";
+import Pin from "./pin.svg";
 export {Infraestrutura, Predial,
          Icon,
          WhiteIcon,
          Insta,
          Zap,
          Map,
-         Email};
+         Email, Message, Phone, Pin};
