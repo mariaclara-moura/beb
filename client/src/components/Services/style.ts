@@ -14,7 +14,7 @@ border-radius: 16px;
     padding-left:2%;
     padding-right:2%;
     padding-top:6%;
-    height:700px;}`;
+    height:720px;}`;
 
 export const Title = styled.h1`color: #333;
 font-family: Open Sans;
@@ -58,7 +58,7 @@ margin-bottom: 2%;
 @media (max-width: 768px) {
     display:block;
     gap:0px;
-    margin-bottom:15%;
+    margin-bottom:12%;
     text-align: center;
 
 }`;

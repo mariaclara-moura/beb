@@ -85,3 +85,31 @@ margin-top:3%;
 @media (max-width: 768px) {
     width:75%;
 align-self:center;}`;
+
+export const Button = styled.button`
+  display: inline-flex;
+  padding: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: none;
+  background: #f1811b;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.1s ease;
+  color: var(--Pure-Orange, #ff9100);
+
+  &:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+`;
+
+export const StyledA = styled.a`
+  text-decoration: none;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem; /* 150% */
+  letter-spacing: 0.03125rem;
+`;

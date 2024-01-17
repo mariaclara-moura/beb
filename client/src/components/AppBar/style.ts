@@ -50,7 +50,7 @@ export const List = styled.ul<Props>`
     flex-direction: column;
     padding: 1rem;
     position: absolute;
-    top:20vw;
+    top:120px;
     right: 0;
     z-index: 15;
     border-radius:5%;
