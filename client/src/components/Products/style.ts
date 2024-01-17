@@ -1,14 +1,5 @@
 import styled from 'styled-components';
-<<<<<<< HEAD
-export const Container = styled.div`
-background-color:white;
-width:100%;
-height:480px;
-padding-left:120px;
-padding-top:40px;
-border-radius: 16px;`;
-=======
->>>>>>> 115c817a56893f502038d82203861be7d11ff8aa
+
 
 export const Container = styled.div`
 background-color:#0066B3;
