@@ -9,12 +9,16 @@ padding-right:8%;
 padding-top:3%;
 border-radius: 16px;
 
+@media (max-width: 1024px) {
+    height:400px;
+}
 @media (max-width: 768px) {
     display:block;
     padding-left:2%;
     padding-right:2%;
     padding-top:6%;
     height:720px;}`;
+    
 
 export const Title = styled.h1`color: #333;
 font-family: Open Sans;

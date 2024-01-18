@@ -30,7 +30,7 @@ export default async function handler(req:any, res: any) {
   // Email content
   const mailOptions = {
     from: emailUser,
-    to: 'mariaclara302004@gmail.com',
+    to: 'contato@bebmaterialhidraulico.com.br',
     subject: 'Novo contato vindo do site B&B Material Hidráulico',
     html: `
       <p>Nome: ${name}</p>

@@ -14,7 +14,7 @@ export default function Footer  ()  {
        <Footera href="https://www.instagram.com/bebmaterialhidraulico/" target="blank">
             <Image src={Insta} alt="" />
         </Footera>
-        <Footera href="https://api.whatsapp.com/send?phone=5584994313279&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20da%20B%26B%20Material%20Hidr%C3%A1ulico!" target="blank">
+        <Footera href="https://api.whatsapp.com/send?phone=5584991056245&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20da%20B%26B%20Material%20Hidr%C3%A1ulico!" target="blank">
             <Image src={Zap} alt="" />
         </Footera>
         <Footera href="mailto:contato@bebmaterialhidraulico.com.br" target="blank">

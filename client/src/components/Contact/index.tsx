@@ -86,12 +86,12 @@ const handleSubmit = async (e: any) => {
           </Infos>
           <Infos style={{marginTop:"8%"}}>
             <Image src={Message} alt="Atualização" />
-            <Text style={{marginLeft:"-3%"}}>contato@bebmaterialhidraulico.com.br</Text>
+            <Text style={{marginLeft:"-3%"}}>contato@bebmaterialhidraulico.com.br <br></br> vendas@bebmaterialhidraulico.com.br</Text>
           </Infos>
           <Infos style={{marginTop:"15%"}}>
             <Image src={Phone} alt="Atualização" />
           <Text style={{marginLeft:"-1%", marginTop:"-3%"}}>(84) 3606-0906 <br></br>
-(84) 99431-3279</Text>
+          (84) 99105-6245</Text>
           </Infos></Organize>
         </Descrição>
         <Descrição>

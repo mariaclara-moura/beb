@@ -99,8 +99,6 @@ export default function Products() {
       <SimpleSlider />
       <Title2>Registro em PVC</Title2>
       <SimpleSlider />
-      <Title2>Registro de Gaveta Ferro Fundido</Title2>
-      <SimpleSlider />
       <Title2>Hidrômetros e Macromediadores</Title2>
       <SimpleSlider />
       <Title2>Acessórios</Title2>

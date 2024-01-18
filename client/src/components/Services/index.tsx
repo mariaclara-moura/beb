@@ -10,7 +10,7 @@ export default function Services
         <Linha></Linha>
         <Descrição><Image src={Predial} alt="Atualização"/>
         <Infos><Title2>Instalações Prediais</Title2>
-        <Text>Para obras de esgoto ou água fria, a B & B tem a solução. Com tubos, conexões e acessórios adequados para o que você precisa.</Text></Infos></Descrição>
+        <Text>A B & B tem a solução para obras de esgoto ou água fria com tubos, conexões e acessórios adequados para o que você precisa.</Text></Infos></Descrição>
         <Descrição><Image src={Infraestrutura} alt="Atualização"/>
         <Infos><Title2>Infraestrutura</Title2>
         <Text>A B & B oferece todos os itens necessários para obras de infraestrutura, como instalações hidráulicas de saneamento, seja para água ou esgoto.</Text></Infos></Descrição>

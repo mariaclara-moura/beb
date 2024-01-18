@@ -4,17 +4,20 @@ import styled from 'styled-components';
 export const Container = styled.div`
 background-color:#0066B3;
 width:100%;
-height:2600px;
+height:2400px;
 padding-left:8%;
 padding-right:8%;
 padding-top:3%;
 
+@media (max-width: 1024px) {
+height: 2300px;
+}
 @media (max-width: 768px) {
     display:block;
     padding-left:2%;
     padding-right:2%;
     padding-top:6%;
-    height:2515px;}`;
+    height:2305px;}`;
 
 export const Title = styled.h1`color: #FFF;
 font-family: Open Sans;
@@ -122,4 +125,6 @@ export const ButtonDiv = styled.div`
 display: flex;
 justify-content:center;
 margin-top:6%;
+@media (max-width: 768px) {
+    margin-top:10%;}
 `;

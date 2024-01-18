@@ -8,6 +8,10 @@ export const Container = styled.div`
   padding-right: 8%;
   padding-top: 3%;
 
+  @media (max-width: 1024px) {
+    height: 780px;
+  }
+
   @media (max-width: 768px) {
     display: block;
     padding-left: 2%;
@@ -56,6 +60,10 @@ export const Infos = styled.div`
   flex-direction: row;
   gap: 15%;
   align-items: flex-start;
+  @media (max-width: 1024px) {
+    gap: 5%;
+    margin-top: 5% !important;
+  }
 `;
 
 export const Descrição = styled.div`
@@ -94,12 +102,17 @@ export const Text = styled.p`
   @media (max-width: 768px) {
     align-self: center;
   }
+
 `;
 
 export const Section = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @media (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+  }
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
@@ -108,6 +121,9 @@ export const Section = styled.div`
 export const Organize = styled.div`
   display: flex;
   flex-direction: column;
+@media (max-width: 1024px) {
+  margin-bottom:3%;
+  margin-top:-6%;}
 `;
 
 export const Box = styled.form`
