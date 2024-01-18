@@ -60,7 +60,7 @@ export const Infos = styled.div`
   flex-direction: row;
   gap: 15%;
   align-items: flex-start;
-  @media (max-width: 1024px) {
+  @media (max-width: 1024px) and (min-width: 768px) {
     gap: 5%;
     margin-top: 5% !important;
   }
@@ -121,7 +121,7 @@ export const Section = styled.div`
 export const Organize = styled.div`
   display: flex;
   flex-direction: column;
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 768px) {
   margin-bottom:3%;
   margin-top:-6%;}
 `;

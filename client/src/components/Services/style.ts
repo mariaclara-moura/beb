@@ -17,7 +17,7 @@ border-radius: 16px;
     padding-left:2%;
     padding-right:2%;
     padding-top:6%;
-    height:720px;}`;
+    height:700px;}`;
     
 
 export const Title = styled.h1`color: #333;
