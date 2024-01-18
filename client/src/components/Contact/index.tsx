@@ -72,7 +72,7 @@ const handleSubmit = async (e: any) => {
   return (
     <Container id="Contact">
       <Title>
-        Entrar em <Destaque>Contato</Destaque>
+        Entre em <Destaque>Contato</Destaque>
       </Title>
       <Linha></Linha>
       <Section>

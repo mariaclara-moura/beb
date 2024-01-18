@@ -53,7 +53,7 @@ export const Descrição = styled.div`
 display:flex;
 flex-direction:row;
 gap:3%;
-margin-bottom: 2%;
+margin-bottom: 3%;
 
 @media (max-width: 768px) {
     display:block;
@@ -70,7 +70,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 600;
 line-height: 19.8px; /* 110% */
-margin-top: 3%;`;
+margin-top: 1%;`;
 
 export const Text = styled.p`
 color: #333;
@@ -80,7 +80,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 19.8px; /* 110% */
-margin-top:3%;
+margin-top:2%;
 
 @media (max-width: 768px) {
     width:75%;

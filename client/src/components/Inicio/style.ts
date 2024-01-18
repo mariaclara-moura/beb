@@ -7,7 +7,7 @@ export const Foto = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
   height:590px;
-  border-radius: 0px 0px 62px 62px;
+  border-radius: 0px 0px 60px 60px;
   @media (max-width: 768px) {
     height:500px;}`;
 
@@ -30,7 +30,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 20px; /* 66.667% */
 text-transform: uppercase;
-margin-left:9%;
+margin-left:8.5%;
 margin-top : 4%;
 @media (max-width: 768px) {
     margin-top:10%;
@@ -54,7 +54,7 @@ flex-shrink: 0;
 background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
 margin-top:24px;
 margin-bottom:24px;
-margin-left: 9%;
+margin-left: 8.5%;
 @media (max-width: 768px) {
     width: 80%;
     margin-left:15%;}`;
