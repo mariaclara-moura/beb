@@ -84,7 +84,7 @@ const handleSubmit = async (e: any) => {
               Candelária - Natal, RN 59065-210
             </Text>
           </Infos>
-          <Infos style={{marginTop:"8%"}}>
+          <Infos style={{marginTop:"12%"}}>
             <Image src={Message} alt="Atualização" />
             <Text style={{marginLeft:"-2%", marginTop:"-2%"}}>contato@bebmaterialhidraulico.com.br <br></br> vendas@bebmaterialhidraulico.com.br</Text>
           </Infos>
