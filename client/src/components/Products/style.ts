@@ -4,20 +4,20 @@ import styled from 'styled-components';
 export const Container = styled.div`
 background-color:#0066B3;
 width:100%;
-height:2400px;
+height:3000px;
 padding-left:8%;
 padding-right:8%;
 padding-top:3%;
 
 @media (max-width: 1024px) {
-height: 2300px;
+height: 2920px;
 }
 @media (max-width: 768px) {
     display:block;
     padding-left:2%;
     padding-right:2%;
     padding-top:6%;
-    height:2305px;}`;
+    height:2570px;}`;
 
 export const Title = styled.h1`color: #FFF;
 font-family: Open Sans;
@@ -113,7 +113,7 @@ background-color: #f3f3f3;
 align-items: center;  
 border-radius: 1rem;
 border:none;
-margin: 0 1rem;
+margin: 1rem 1rem;
 `;
 
 export const Categories = styled.div`
@@ -124,7 +124,7 @@ gap: 1.5rem;
 export const ButtonDiv = styled.div`
 display: flex;
 justify-content:center;
-margin-top:6%;
+margin-top:3%;
 @media (max-width: 768px) {
     margin-top:10%;}
 `;
