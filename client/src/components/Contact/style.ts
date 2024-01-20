@@ -9,7 +9,7 @@ export const Container = styled.div`
   padding-top: 3%;
 
   @media (max-width: 1024px) {
-    height: 780px;
+    height: 770px;
   }
 
   @media (max-width: 768px) {
@@ -17,7 +17,7 @@ export const Container = styled.div`
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 6%;
-    height: 750px;
+    height: 770px;
   }
 `;
 
