@@ -17,7 +17,7 @@ width:100%;
 height:1210px;
 color:#06F;
 @media (max-width: 1024px) {
-height: 1350px;
+height: 1360px;
 }
 @media (max-width: 768px) {
     display: flex;
