@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
 background-color:white;
 width:100%;
-height:450px;
+height:440px;
 padding-left:8%;
 padding-right:8%;
 padding-top:3%;
@@ -43,7 +43,7 @@ height: 2px;
 flex-shrink: 0;
 background: linear-gradient(90deg, #333 0%, rgba(255, 255, 255, 0.00) 100%);
 margin-top:24px;
-margin-bottom:3%;
+margin-bottom:4%;
 
 @media (max-width: 768px) {
     margin-bottom:10%;}`;
