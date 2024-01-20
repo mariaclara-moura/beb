@@ -16,7 +16,7 @@ export default function Inicio() {
   return (
     <Container id="Inicio">
       <Foto></Foto>
-      <div>
+      <div id="Somos">
       <Title>
         Nossa <Destaque>História</Destaque>
       </Title>
