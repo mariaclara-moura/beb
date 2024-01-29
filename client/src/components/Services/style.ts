@@ -17,6 +17,10 @@ border-radius: 16px;
     height: 460px;
 }
 
+@media (min-width: 1800px) {
+    height: 510px;
+}
+
 @media (max-width: 768px) {
     display:block;
     padding-left:2%;
