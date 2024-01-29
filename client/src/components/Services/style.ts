@@ -13,10 +13,6 @@ border-radius: 16px;
     height:400px;
 }
 
-@media (min-width: 1900px) {
-    height: 460px;
-  }
-
 @media (max-width: 768px) {
     display:block;
     padding-left:2%;
