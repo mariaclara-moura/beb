@@ -12,6 +12,10 @@ export const Container = styled.div`
     height: 770px;
   }
 
+  @media (min-width: 1900px) {
+    height: 790px;
+  }
+
   @media (max-width: 768px) {
     display: block;
     padding-left: 2%;
