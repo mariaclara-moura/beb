@@ -13,7 +13,7 @@ export const Container = styled.div`
   }
 
   @media (min-width: 1550px) {
-  height: 790px;
+  height: 520px;
  }
 
   @media (max-width: 768px) {
