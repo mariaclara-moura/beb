@@ -66,7 +66,6 @@ align-self: center;
 `;
 
 
-
 export const Title2 = styled.p`
 color: #FAFAFA;
 font-family: "Open Sans";

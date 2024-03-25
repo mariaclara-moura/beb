@@ -21,6 +21,10 @@ border-radius: 16px;
     height: 510px;
 }
 
+@media (min-width: 2000px) {
+    height: 580px;
+}
+
 @media (max-width: 768px) {
     display:block;
     padding-left:2%;

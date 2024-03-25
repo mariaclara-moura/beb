@@ -97,6 +97,7 @@ const handleSubmit = async (e: any) => {
         <Descrição>
           <Title2>Deixe uma mensagem</Title2>
           <Box onSubmit={handleSubmit} >
+            <div style={{display:'flex', alignItems:'center', flexDirection:'column'}} >
                     <Wrapper>
                         <Retangulo placeholder="Nome" id="name" value={formData.name} onChange={handleChange} ></Retangulo>
                         <Retangulo placeholder="Email" id="email" value={formData.email} onChange={handleChange} ></Retangulo></Wrapper>
@@ -105,6 +106,7 @@ const handleSubmit = async (e: any) => {
                         <Retangulo placeholder="Assunto" id="subject" value={formData.subject} onChange={handleChange} /> 
                     </Wrapper>
                     <Retangulo height = "6.18419rem" width="40rem" placeholder="Conteúdo" id="message" value={formData.message} onChange={handleChange} ></Retangulo>
+               </div> 
                  <Button  type="submit">
                         Enviar
                 </Button> 

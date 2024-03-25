@@ -15,13 +15,15 @@ export const Container = styled.div`
   @media (min-width: 1550px) {
   height: 520px;
  }
-
+ @media (min-width: 2000px) {
+    height: 600px;
+}
   @media (max-width: 768px) {
     display: block;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 6%;
-    height: 770px;
+    height: 800px;
   }
 `;
 
@@ -162,7 +164,6 @@ export const Retangulo = styled.input`
     props.height ? props.height : "2.23681rem"}; // Adicionado altura como prop
   padding: 0.59213rem 0.85525rem;
   justify-content: center;
-  align-items: center;
   flex-shrink: 0;
   border-radius: 0.5rem;
   border: 1.053px solid #333;

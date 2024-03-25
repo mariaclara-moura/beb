@@ -71,7 +71,7 @@ function SamplePrevArrow(props: any) {
 function Item({ imageName }: { imageName: string }) {
   return (
     <Carrossel>
-      <Image src={imageName} alt="Prazos" />
+      <Image src={imageName} alt="" />
     </Carrossel>
   );
 }
