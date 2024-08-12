@@ -105,7 +105,8 @@ const handleSubmit = async (e: any) => {
                         <Retangulo placeholder="Telefone" id="phone" value={formData.phone} onChange={handleChange} />
                         <Retangulo placeholder="Assunto" id="subject" value={formData.subject} onChange={handleChange} /> 
                     </Wrapper>
-                    <Retangulo height = "6.18419rem" width="40rem" placeholder="Conteúdo" id="message" value={formData.message} onChange={handleChange} ></Retangulo>
+                    <Retangulo height = "6.18419rem" width="40rem" placeholder="Conteúdo" id="message" value={formData.message} onChange={handleChange} style={marginLeft: '-2%'}
+ ></Retangulo>
                </div> 
                  <Button  type="submit">
                         Enviar
