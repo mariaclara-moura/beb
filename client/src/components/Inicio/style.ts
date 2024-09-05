@@ -8,22 +8,41 @@ export const Foto = styled.section`
   background-size: cover;
   height:590px;
   border-radius: 0px 0px 60px 60px;
+
   @media (max-width: 768px) {
     height:550px;}`;
 
 export const Container = styled.div`
 background-color: #0066B3;
 width:100%;
-height:1210px;
+height:1240px;
 color:#06F;
+
 @media (max-width: 1024px) {
 height: 1360px;
+}
+@media (max-width: 840px) {
+height: 1380px;
+}
+
+@media (max-width: 1124px) and (min-width: 900px) {
+height: 1260px;
 }
 @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height:1800px;}`;
+    height:1800px;}
+
+@media (max-width: 1000px) and (min-width: 900px) {
+    height: 1300px;
+    }
+
+@media (min-width: 1010px) and (max-width: 1024px){
+    height: 1260px;
+    }
+    `;
+    
 
 export const Title = styled.h1`
 color: #FFF;

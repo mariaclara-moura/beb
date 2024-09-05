@@ -9,8 +9,16 @@ padding-right:8%;
 padding-top:3%;
 border-radius: 16px;
 
-@media (max-width: 1024px) {
+@media (min-width: 890px) and (max-width: 1024px) {
+    height:380px;
+}
+
+@media (max-width: 1200px) {
     height:400px;
+}
+
+@media (max-width: 120px) {
+    height:380px;
 }
 
 @media (min-width: 1550px) {

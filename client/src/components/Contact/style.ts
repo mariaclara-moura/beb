@@ -86,6 +86,21 @@ export const Descrição = styled.div`
     align-self: center;
   }
 `;
+export const Descrição1 = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+  margin-bottom: 2%;
+  margin-right: 5%;
+
+  @media (max-width: 768px) {
+    display: block;
+    gap: 0px;
+    margin-bottom:10%;
+    text-align: center;
+    align-self: center;
+  }
+`;
 
 export const Title2 = styled.h2`
   color: #333;
@@ -115,6 +130,7 @@ export const Section = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
   @media (max-width: 1024px) {
     display: flex;
     flex-direction: column;
@@ -127,6 +143,8 @@ export const Section = styled.div`
 export const Organize = styled.div`
   display: flex;
   flex-direction: column;
+  /* margin-right: 5%; */
+
 @media (max-width: 1024px) and (min-width: 768px) {
   margin-bottom:3%;
   margin-top:-6%;}
@@ -161,7 +179,7 @@ export const Retangulo = styled.input`
   display: flex;
   width: ${(props) => (props.width ? props.width : "19rem")};
   height: ${(props) =>
-    props.height ? props.height : "2.23681rem"}; // Adicionado altura como prop
+    props.height ? props.height : "2.23681rem"}; 
   padding: 0.59213rem 0.85525rem;
   justify-content: center;
   flex-shrink: 0;
@@ -191,6 +209,14 @@ export const Retangulo = styled.input`
     width: 100%;
     margin-left: 0;
     margin-bottom: 3%;
+  }
+
+  @media (max-width: 768px) {
+    ${(props) =>
+      props.width === "40rem" &&
+      `
+        margin-left: -4%;
+    `}
   }
 `;
 
@@ -226,5 +252,6 @@ export const Button = styled.button`
     gap: 0px;
     font-size: 1rem;
     margin-left: 0px;
+    
   }
 `;

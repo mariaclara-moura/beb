@@ -7,6 +7,7 @@ import {
   Title,
   Destaque,
   Linha,
+  Descrição1,
   Descrição,
   Title2,
   Text,
@@ -76,7 +77,7 @@ const handleSubmit = async (e: any) => {
       </Title>
       <Linha></Linha>
       <Section>
-        <Descrição>
+        <Descrição1>
           <Title2 style={{marginBottom:"5%"}}>Informações</Title2>
          <Organize> <Infos style={{marginTop:"5%"}}>
             <Image src={Pin} alt="Atualização" />
@@ -93,7 +94,7 @@ const handleSubmit = async (e: any) => {
           <Text style={{marginLeft:"-1%", marginTop:"-3%"}}>(84) 3606-0906 <br></br>
           (84) 99105-6245</Text>
           </Infos></Organize>
-        </Descrição>
+        </Descrição1>
         <Descrição>
           <Title2>Deixe uma mensagem</Title2>
           <Box onSubmit={handleSubmit} >
@@ -105,7 +106,7 @@ const handleSubmit = async (e: any) => {
                         <Retangulo placeholder="Telefone" id="phone" value={formData.phone} onChange={handleChange} />
                         <Retangulo placeholder="Assunto" id="subject" value={formData.subject} onChange={handleChange} /> 
                     </Wrapper>
-                    <Retangulo height = "6.18419rem" width="40rem" placeholder="Conteúdo" id="message" value={formData.message} onChange={handleChange} style={{marginLeft: '-2%'}}
+                    <Retangulo height = "6.18419rem" width="40rem" placeholder="Conteúdo" id="message" value={formData.message} onChange={handleChange}
  ></Retangulo>
                </div> 
                  <Button  type="submit">

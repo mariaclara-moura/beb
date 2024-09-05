@@ -10,14 +10,21 @@ padding-right:8%;
 padding-top:3%;
 
 @media (max-width: 1024px) {
-height: 2920px;
+height: 2930px;
+}
+@media (min-width: 1024px) and (max-width: 1080px){
+height: 2940px;
 }
 @media (max-width: 768px) {
     display:block;
     padding-left:2%;
     padding-right:2%;
     padding-top:6%;
-    height:2570px;}`;
+    height:2590px;
+  }
+  @media (max-width: 764px) {
+    height:2600px;}
+    `;
 
 export const Title = styled.h1`color: #FFF;
 font-family: Open Sans;
