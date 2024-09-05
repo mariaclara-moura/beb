@@ -15,7 +15,7 @@ export const Foto = styled.section`
 export const Container = styled.div`
 background-color: #0066B3;
 width:100%;
-height:1240px;
+height:1230px;
 color:#06F;
 
 @media (max-width: 1024px) {
