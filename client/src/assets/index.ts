@@ -13,10 +13,13 @@ import Pin from "./pin.svg";
 import Previous from "./next.svg";
 import Next from "./prev.svg";
 import Teste from"./div.portfolio-item.svg";
+import BannerP from "./bannerP.jpg";
+import BannerG from "./bannerG.jpg";
 
 export {Infraestrutura, Predial, Canos,
          Icon ,
          WhiteIcon , Insta,
          Zap,
          Map, Teste,
-         Email, Message, Phone, Pin, Previous, Next};
+         Email, Message, Phone, Pin, Previous, Next,
+         BannerP, BannerG};
