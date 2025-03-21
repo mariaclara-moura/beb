@@ -1,46 +1,49 @@
 import styled from "styled-components"
-import { Canos } from 'assets';
+import { BannerG,BannerP } from 'assets';
 
 export const Foto = styled.section`
   width: 100%;
-  background-image: url(${Canos.src});
+  background-image: url(${BannerG.src});
   background-repeat: no-repeat;
   background-size: cover;
-  height:590px;
-  border-radius: 0px 0px 60px 60px;
+  background-position: center;
+  height:20rem ;
+  border-radius: 0 0 5rem 5rem ;
 
-  @media (max-width: 768px) {
-    height:550px;}`;
+  @media (max-width: 1024px) {
+    background-image: url(${BannerP.src});
+    height:24rem;}
+    `;
 
 export const Container = styled.div`
 background-color: #0066B3;
 width:100%;
-height:1230px;
+height:60rem;
 color:#06F;
 
 @media (max-width: 1024px) {
-height: 1360px;
-}
-@media (max-width: 840px) {
-height: 1380px;
-}
-
+height: 78rem; }
 @media (max-width: 1124px) and (min-width: 900px) {
-height: 1260px;
-}
+height: 73rem; }
 @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height:1800px;}
-
-@media (max-width: 1000px) and (min-width: 900px) {
-    height: 1300px;
-    }
-
-@media (min-width: 1010px) and (max-width: 1024px){
-    height: 1260px;
-    }
+    height:94rem;}
+@media (max-width: 720px) {
+height: 101rem; }
+@media (max-width: 400px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:112rem;}
+@media (max-width: 500px) and (min-width: 400px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:106rem;}
+    @media (max-width: 374px) {
+        height: 119rem;}
     `;
     
 
