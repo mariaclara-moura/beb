@@ -23,7 +23,7 @@ export const Container = styled.div`
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 6%;
-    height: 800px;
+    height: 880px;
   }
 `;
 

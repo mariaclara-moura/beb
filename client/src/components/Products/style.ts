@@ -22,9 +22,15 @@ height: 2940px;
     padding-top:6%;
     height:2590px;
   }
-  @media (max-width: 764px) {
-    height:2600px;}
+  @media (min-width: 729px) and (max-width: 767px) {
+    height:3020px;}
+
+  @media (min-width: 721px) and (max-width: 728px) {
+      height:2650px;}
+      
     `;
+
+    
 
 export const Title = styled.h1`color: #FFF;
 font-family: Open Sans;
